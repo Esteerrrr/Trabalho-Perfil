@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Geostar+Fill&display=swap');
 
 a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -17,8 +17,29 @@ body {
     
 }
 
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #000000;
+}
 
-.Title {
+
+.cabecalho-menu {
+    height: 20px;
+    display: flex;
+    gap: 25px;
+}
+
+.cabecalho-menu-item {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.Title{
     font-family: 'Lobster', cursive;
     text-align: center;
     color:rgb(20, 19, 19);
@@ -55,16 +76,16 @@ body {
     width:400px;
     height:40px;
     border-width:2px;
-    color:#fff;
-    border-color:#c584f3;
+    color:rgb(255, 255, 255);
+    border-color:#000000;
     font-weight:bold;
     border-top-left-radius:21px;
     border-top-right-radius:21px;
     border-bottom-left-radius:21px;
     border-bottom-right-radius:21px;
-    box-shadow:inset 0px 0px 9px -3px #efdcfb;
-    text-shadow:inset 0px 0px 0px #9752cc;
-    background:linear-gradient(#dfbdfa, #bc80ea);
+    box-shadow:inset 0px 0px 9px -3px #2c2b2c;
+    text-shadow:inset 0px 0px 0px #302f2f;
+    background:linear-gradient(#1e1e1f, #353434);
 }
 
 .button_meustrabalhos {
@@ -77,15 +98,15 @@ body {
     height:40px;
     border-width:2px;
     color:#fff;
-    border-color:#c584f3;
+    border-color:#000000;
     font-weight:bold;
     border-top-left-radius:21px;
     border-top-right-radius:21px;
     border-bottom-left-radius:21px;
     border-bottom-right-radius:21px;
-    box-shadow:inset 0px 0px 9px -3px #efdcfb;
-    text-shadow:inset 0px 0px 0px #9752cc;
-    background:linear-gradient(#dfbdfa, #bc80ea);
+    box-shadow:inset 0px 0px 9px -3px #2c2b2c;
+    text-shadow:inset 0px 0px 0px #302f2f;
+    background:linear-gradient(#1e1e1f, #353434);
 }
 
 .button_curriculo {
@@ -98,15 +119,15 @@ body {
     height:40px;
     border-width:2px;
     color:#fff;
-    border-color:#c584f3;
+    border-color:#000000;
     font-weight:bold;
     border-top-left-radius:21px;
     border-top-right-radius:21px;
     border-bottom-left-radius:21px;
     border-bottom-right-radius:21px;
-    box-shadow:inset 0px 0px 9px -3px #efdcfb;
-    text-shadow:inset 0px 0px 0px #9752cc;
-    background:linear-gradient(#dfbdfa, #bc80ea);
+    box-shadow:inset 0px 0px 9px -3px #2c2b2c;
+    text-shadow:inset 0px 0px 0px #302f2f;
+    background:linear-gradient(#1e1e1f, #353434);
 }
 
 .button_github {
@@ -119,15 +140,15 @@ body {
     height:40px;
     border-width:2px;
     color:#fff;
-    border-color:#c584f3;
+    border-color:#000000;
     font-weight:bold;
     border-top-left-radius:21px;
     border-top-right-radius:21px;
     border-bottom-left-radius:21px;
     border-bottom-right-radius:21px;
-    box-shadow:inset 0px 0px 9px -3px #efdcfb;
-    text-shadow:inset 0px 0px 0px #9752cc;
-    background:linear-gradient(#dfbdfa, #bc80ea);
+    box-shadow:inset 0px 0px 9px -3px #2c2b2c;
+    text-shadow:inset 0px 0px 0px #302f2f;
+    background:linear-gradient(#1e1e1f, #353434);
 }
 
 .button_linkedin {
@@ -141,15 +162,15 @@ body {
     height:40px;
     border-width:2px;
     color:#fff;
-    border-color:#c584f3;
+    border-color:#000000;
     font-weight:bold;
     border-top-left-radius:21px;
     border-top-right-radius:21px;
     border-bottom-left-radius:21px;
     border-bottom-right-radius:21px;
-    box-shadow:inset 0px 0px 9px -3px #efdcfb;
-    text-shadow:inset 0px 0px 0px #9752cc;
-    background:linear-gradient(#dfbdfa, #bc80ea);
+    box-shadow:inset 0px 0px 9px -3px #2c2b2c;
+    text-shadow:inset 0px 0px 0px #302f2f;
+    background:linear-gradient(#1e1e1f, #353434);
 }
 
 .button_insta {
@@ -162,15 +183,15 @@ body {
     height:40px;
     border-width:2px;
     color:#fff;
-    border-color:#c584f3;
+    border-color:#000000;
     font-weight:bold;
     border-top-left-radius:21px;
     border-top-right-radius:21px;
     border-bottom-left-radius:21px;
     border-bottom-right-radius:21px;
-    box-shadow:inset 0px 0px 9px -3px #efdcfb;
-    text-shadow:inset 0px 0px 0px #9752cc;
-    background:linear-gradient(#dfbdfa, #bc80ea);
+    box-shadow:inset 0px 0px 9px -3px #2c2b2c;
+    text-shadow:inset 0px 0px 0px #302f2f;
+    background:linear-gradient(#1e1e1f, #353434);
 }
 
 .button_pinterest {
@@ -183,15 +204,15 @@ body {
     height:40px;
     border-width:2px;
     color:#fff;
-    border-color:#c584f3;
+    border-color:#000000;
     font-weight:bold;
     border-top-left-radius:21px;
     border-top-right-radius:21px;
     border-bottom-left-radius:21px;
     border-bottom-right-radius:21px;
-    box-shadow:inset 0px 0px 9px -3px #efdcfb;
-    text-shadow:inset 0px 0px 0px #9752cc;
-    background:linear-gradient(#dfbdfa, #bc80ea);
+    box-shadow:inset 0px 0px 9px -3px #2c2b2c;
+    text-shadow:inset 0px 0px 0px #302f2f;
+    background:linear-gradient(#1e1e1f, #353434);
 
 
 }
@@ -202,19 +223,20 @@ body {
     text-align: center;
     font-size:20px;
     font-family: 'Lobster', cursive;
+    margin-bottom: 50px;
     width:400px;
     height:40px;
     border-width:2px;
     color:#fff;
-    border-color:#c584f3;
+    border-color:#000000;
     font-weight:bold;
     border-top-left-radius:21px;
     border-top-right-radius:21px;
     border-bottom-left-radius:21px;
     border-bottom-right-radius:21px;
-    box-shadow:inset 0px 0px 9px -3px #efdcfb;
-    text-shadow:inset 0px 0px 0px #9752cc;
-    background:linear-gradient(#dfbdfa, #bc80ea);
+    box-shadow:inset 0px 0px 9px -3px #2c2b2c;
+    text-shadow:inset 0px 0px 0px #302f2f;
+    background:linear-gradient(#1e1e1f, #353434);
 
 
 }
@@ -224,6 +246,8 @@ footer {
     margin-bottom: 30px;
     border-top: 0.4px solid white;
     width: 1519px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #footer-texto {
